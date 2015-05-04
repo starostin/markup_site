@@ -3,8 +3,67 @@ html{
 }
 body{
     height: 100%;
+    color: #ffffff;
 }
 #wrapper{
     background: linear-gradient(to top, #414243 30%, #010000);
     height: 100%;
+    padding: 0 50px;
+}
+header{
+    height: 100px;
+    padding: 30px 0 0 20px;
+}
+header > div{
+    float: left;
+}
+.email{
+    margin-right: 15px;
+}
+.email input{
+    margin-bottom: 5px;
+}
+.email p{
+    text-decoration: underline;
+}
+.password{
+    margin-right: 10px;
+}
+.enter{
+    margin-right: 20px;
+}
+.header-logo{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    background: red;
+}
+.header-logo:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 100px solid red;
+    border-left: 30px solid #121212;
+    border-right: 30px solid #121212;
+    width: 340px;
+    height: 0;
+}
+.header-logo-bottom{
+    margin: 100px auto 0 auto;
+    width: 340px;
+    height: 20px;
+    position: relative;
+    background: red;
+}
+.header-logo-bottom:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 20px solid red;
+    border-left: 170px solid #121212;
+    border-right: 170px solid #121212;
+    width: 0;
+    height: 0;
 }
