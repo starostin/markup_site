@@ -6,7 +6,7 @@ body{
     color: #ffffff;
 }
 #wrapper{
-    background: linear-gradient(to top, #414243 30%, #010000);
+    background: url(../img/bg.png) repeat-x #414243;
     height: 100%;
     padding: 0 50px;
 }
@@ -33,37 +33,16 @@ header > div{
     margin-right: 20px;
 }
 .header-logo{
-    width: 400px;
-    height: 100px;
+    width: 431px;
+    height: 87px;
     position: relative;
-    background: red;
+    background: url(../img/logo-bg.png) no-repeat;
 }
-.header-logo:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-top: 100px solid red;
-    border-left: 30px solid #121212;
-    border-right: 30px solid #121212;
-    width: 340px;
-    height: 0;
-}
-.header-logo-bottom{
-    margin: 100px auto 0 auto;
-    width: 340px;
-    height: 20px;
-    position: relative;
-    background: red;
-}
-.header-logo-bottom:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-top: 20px solid red;
-    border-left: 170px solid #121212;
-    border-right: 170px solid #121212;
-    width: 0;
-    height: 0;
-}
+
+.sprite { background: url('../img/sprite.png') no-repeat top left; width: 11px;  }
+.sprite.ico-feedback { background-position: 0 0; height: 8px; }
+.sprite.ico-icq { background-position: 0 -18px; width: 15px; height: 15px; }
+.sprite.ico-mail { background-position: 0 -43px; width: 16px; height: 12px; }
+.sprite.ico-map { background-position: 0 -65px; height: 9px; }
+.sprite.ico-phone { background-position: 0 -84px; width: 10px; height: 14px; }
+.sprite.ico-skype { background-position: 0 -108px; width: 16px; height: 16px; }
